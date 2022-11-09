@@ -40,17 +40,6 @@ $(window).on('load', function() {
 		return false;
 	});
 
-	var $blog_grid = $('.blog-grid-warp');
-
-	$blog_grid.imagesLoaded().progress( function() {
-		$blog_grid.isotope({
-			masonry: {
-				columnWidth: '.blog-grid-sizer',
-				itemSelector: '.blog-grid'
-			}
-		});
-	});
-
 });
 
 (function($) {
