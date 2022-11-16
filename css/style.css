@@ -694,6 +694,10 @@ only screen and (min-width: 768px) and (max-width: 991px) {
    About page
  ------------------*/
 
+ul {
+	margin-left: 1em;
+}
+
 .about-section {
 	height: 100%;
 }
@@ -1161,24 +1165,10 @@ only screen and (min-width: 576px) and (max-width: 767px) {
    Contact Page
  ----------------*/
 
-.contact-section .pricing-section .info-section {
-	height: 90%;
+.contact-section {
+	height: 50%;
 	min-height: 700px;
 	position: relative;
-}
-
-.pricing-box {
-	padding-top: 40px;
-	position: absolute;
-	background: #fff;
-	max-width: 1120px;
-	width: 100%;
-	left: calc(50% - 560px);
-	top: 50px;
-	text-align: center;
-	border-radius: 8px;
-	-webkit-box-shadow: 0 0 103px rgba(0, 0, 0, 0.08);
-	box-shadow: 0 0 103px rgba(0, 0, 0, 0.08);
 }
 
 .page-container {
@@ -1186,28 +1176,14 @@ only screen and (min-width: 576px) and (max-width: 767px) {
 	justify-content: center;
 }
 
-.info-box {
-	padding-top: 40px;
-	position: absolute;
-	background: #fff;
-	max-width: 1120px;
-	width: 90%;
-	left: calc(50% - 560px);
-	bottom: 300px;
-	text-align: center;
-	border-radius: 8px;
-	-webkit-box-shadow: 0 0 103px rgba(0, 0, 0, 0.08);
-	box-shadow: 0 0 103px rgba(0, 0, 0, 0.08);
-}
-
 .contact-box {
 	padding-top: 40px;
-	position: absolute;
+	position: relative;
 	background: #fff;
 	max-width: 1120px;
 	width: 90%;
 	left: calc(50% - 560px);
-	bottom: 50px;
+	top: 10em;
 	text-align: center;
 	border-radius: 8px;
 	-webkit-box-shadow: 0 0 103px rgba(0, 0, 0, 0.08);
@@ -1218,17 +1194,9 @@ only screen and (min-width: 576px) and (max-width: 767px) {
 only screen and (min-width: 992px) and (max-width: 1200px),
 (max-width: 991px) {
 	.contact-box {
-		width: calc(100% - 30px);
+		width: calc(100% - 10px);
 		left: 15px;
-	}
-	.pricing-box {
-		width: calc(100% - 30px);
-		left: 15px;
-	}
-
-	.info-box {
-		width: calc(100% - 30px);
-		left: 15px;
+		top: 15px;
 	}
 }
 
@@ -1236,6 +1204,11 @@ only screen and (min-width: 992px) and (max-width: 1200px),
 
 .contact-info {
 	margin-bottom: 35px;
+}
+
+.contact-info:hover {
+	background-color: lightgrey;
+	border-radius: 1em;
 }
 
 .contact-info i {
@@ -1253,40 +1226,6 @@ only screen and (min-width: 992px) and (max-width: 1200px),
 }
 
 .contact-info p span {
-	color: #b2b2b2;
-	font-weight: 400;
-}
-
-/* Pricing section */
-.pricing-info {
-	margin-bottom: 35px;
-}
-
-.pricing-info p {
-	margin-bottom: 0;
-	font-size: 18px;
-	color: #252525;
-	font-weight: 500;
-}
-
-.pricing-info p span {
-	color: #b2b2b2;
-	font-weight: 400;
-}
-
-/* Info section */
-.info-info {
-	margin-bottom: 35px;
-}
-
-.info-info p {
-	margin-bottom: 0;
-	font-size: 18px;
-	color: #252525;
-	font-weight: 500;
-}
-
-.info-info p span {
 	color: #b2b2b2;
 	font-weight: 400;
 }
