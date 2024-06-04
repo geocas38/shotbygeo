@@ -839,6 +839,12 @@ only screen and (min-width: 576px) and (max-width: 767px),
 	padding: 75px 0 50px;
 }
 
+.faq-text {
+	max-width: 810px;
+	margin: 0 auto;
+	padding: 40px 0 10px;
+}
+
 .about-text h2 {
 	display: inline-block;
 	padding-bottom: 8px;
@@ -847,6 +853,19 @@ only screen and (min-width: 576px) and (max-width: 767px),
 }
 
 .about-text p {
+	font-size: 16px;
+	line-height: 1.6;
+	margin-bottom: 9px;
+}
+
+.faq-text h3 {
+	display: inline-block;
+	padding-bottom: 8px;
+	border-bottom: 3px solid #2916e0;
+	margin-bottom: 20px;
+}
+
+.faq-text p {
 	font-size: 16px;
 	line-height: 1.6;
 	margin-bottom: 9px;
@@ -1152,6 +1171,10 @@ only screen and (min-width: 576px) and (max-width: 767px) {
 	color: #fff;
 }
 
+.title {
+	font-weight: bold;
+}
+
 .fr-window-skin-fresco.fr-window-ui-outside .fr-close-background,
 .fr-window-skin-fresco.fr-window-ui-outside .fr-close:hover .fr-close-background {
 	background-color: transparent;
@@ -1228,4 +1251,8 @@ only screen and (min-width: 992px) and (max-width: 1200px),
 .contact-info p span {
 	color: #b2b2b2;
 	font-weight: 400;
+}
+
+row {
+	onMouseoC
 }
